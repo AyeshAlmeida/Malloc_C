@@ -5,10 +5,23 @@
 *************************** Date   : 12-05-2016              ***************************
 *************************** Moratuwa, Sri Lanka              ***************************/
 
-LINUX METHOD
+-------------------------------------LINUX METHOD-------------------------------------------------------------
 
 1) Go into the diretory where you hold your header_file, malloc_new.c file and yout main.c file using terminal.
-2) run the following command
+2) run the following commands
 	->	gcc malloc_new.h malloc_new.c main.c -o mall
 	->	./mall
-**and you can edit the main.c file as you wish
+
+
+-------------------------------------WINDOWS METHOD------------------------------------------------------------
+1) Downlod and install 'minGW'
+2) Go to the direcory where you hold your files using Command Prompt.
+2) run the following commands
+	->	gcc malloc_new.h malloc_new.c main.c -o mall.exe
+	->	mall.exe
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+** and you can edit the main.c file as you wish
