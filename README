@@ -1,12 +1,14 @@
+
 /************************** Malloc in C - without structures ***************************
 *************************** Dynamic Memory allocation in C   ***************************
 *************************** Author : Ayesh Almeida	     ***************************
 *************************** Date   : 12-05-2016              ***************************
 *************************** Moratuwa, Sri Lanka              ***************************/
 
+LINUX METHOD
 
-/*Function prototypes*/
-
-//Malloc Function
-void *MyMalloc(int size);
-void MyFree(void *p);
+1) Go into the diretory where you hold your header_file, malloc_new.c file and yout main.c file using terminal.
+2) run the following command
+	->	gcc malloc_new.h malloc_new.c main.c -o mall
+	->	./mall
+**and you can edit the main.c file as you wish
